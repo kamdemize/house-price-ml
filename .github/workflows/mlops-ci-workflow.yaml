@@ -73,7 +73,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_TOKEN }}/fastapi:${{ github.sha }}
+          tags: kamdemize/fastapi:${{ github.sha }}
           context: "."
           file: "Dockerfile"
 

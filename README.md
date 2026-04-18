@@ -24,7 +24,7 @@ house-price-predictor/
 │   ├── features/           # Feature engineering pipeline
 │   ├── models/             # Model training and evaluation
 ├── requirements.txt        # Python dependencies
-└── README.md               # You’re here!
+└── README.md               # You’re here
 ```
 
 ---
